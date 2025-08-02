@@ -1,0 +1,10 @@
+{
+  "name": "mindstudio-signed-url",
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vercel dev",          // local testing
+    "deploy": "vercel --prod"     // one-command deploy
+  }
+}
